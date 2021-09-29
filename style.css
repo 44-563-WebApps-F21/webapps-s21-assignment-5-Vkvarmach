@@ -15,46 +15,29 @@ td, th ,tr{border: solid 1px;
     text-align: center;}
 th{color: tomato;}
 tr {background-color:rgb(137, 211, 134) ;}
-tr:nth-child(even) {background-color: black;}
 th{background-color: yellow;}
 
 
+
+
  
-    ul.navbar-vertical {
-     
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      
-      width:70px;
-      background-color:red;
+   
+    
+    
+    
+    ul.navbar-vertical li {
+      float:left;
+      color:rgb(8, 245, 87);
+      background-color:rgb(249, 253, 0);
     }
     
     ul.navbar-vertical a {
-      display: block; 
-      color:#000;
-    }
-   
-    ul.navbar-vertical a:hover {  
-      background-color: blueviolet;
-      color: black;
-    }
-    
-    
-    
-    ul.navbar-horizontal li {
-      float:left;
-      color:#000;
-      background-color:blueviolet;
-    }
-    
-    ul.navbar-horizontal a {
       display:block;
       padding:8px
     }
     
     /* on hover change the link color*/
-    ul.navbar-horizontal a:hover {  
-      background-color: #555;
-      color:white;
+    ul.navbar-vertical a:hover {  
+      background-color: green;
+      color:rgb(243, 11, 11);
     }
